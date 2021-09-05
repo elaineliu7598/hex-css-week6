@@ -1,0 +1,20 @@
+.banner{
+    background-image: url(../images/header-bn.jpg);
+    height: 480px;
+}
+
+.nav-scroller{
+    height: 3.25rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav{
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.live-review{
+    background-image: url(../images/review.png);
+}

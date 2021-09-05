@@ -1,0 +1,42 @@
+// ----------cart list - offcanvas----------
+.offcanvas-end{
+    top: 70px;
+    width: 400px;
+    @include media-breakpoint-up(md){
+        top: 86px;
+        width: 540px;
+    }
+}
+.offcanvas-body .card{
+    height: 172px;
+}
+.cart-img{
+    width: 120px;
+    height: 120px;
+}
+.btn-checkout{
+    padding: 10px 27px;
+    &:hover{
+        background-color: $primary !important;
+    }
+}
+
+// ----------猜你喜歡----------
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 345px;
+    @include media-breakpoint-up(md){
+        height: 350px;
+    }
+}
+
+// ----------footer----------
+.subscribe-content{
+    background-image: url(../images/footer-bn.jpg);
+    height: 400px;
+}
+
